@@ -312,8 +312,9 @@ input:focus {
 }
 
 .main2{
+    box-sizing: border-box;
     max-width: 100%;
-    min-width: 300px;
+    min-width: 200px;
     flex: 1 1 50px;
     height: auto;
     margin: 10px;

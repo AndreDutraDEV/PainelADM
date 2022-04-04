@@ -196,7 +196,7 @@ nav
     color: white;
 }
 
-.nav__link .title{
+.nav__link .title-namenav{
     position: relative;
     display: block;
     padding: 0 20px;
@@ -331,12 +331,13 @@ input:focus {
     flex: 1 1 300px;
     min-width: 270px;
     height: auto;
+    max-height: 500px;
     margin: 10px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0px 0px 20px 5px #aaaaaa4d;
-    overflow-x: scroll;
+    overflow-y: scroll;
     border-radius: 10px;
 }
 
@@ -367,7 +368,7 @@ input:focus {
 
 .listagem{
     width: 90%;
-    height: auto;
+    height: 100%;
     max-height: 400px;
     margin: 15px 0;
     padding: 0 10px 0 0;

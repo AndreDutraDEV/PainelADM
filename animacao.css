@@ -1,4 +1,25 @@
+/* ========ITENS HOVER ANIMATION============== */
+.dado-painel:hover{
+    background-color: var(--blue);
+    transition: 0.4s;
+    cursor: pointer;
+}
 
+tbody tr:hover{
+    background-color: var(--blue);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.listagem li:hover{
+    background-color: var(--blue);
+    border-radius: 7px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+
+/* =========================================== */
 .opem span:nth-child(1)
 {
     transform: translateY(10px) rotate(45deg);
